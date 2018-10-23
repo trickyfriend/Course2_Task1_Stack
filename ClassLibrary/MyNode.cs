@@ -6,22 +6,22 @@ namespace ClassLibrary
 {
     public class MyNode
     {
-        double val;
+        string str;
         MyNode next;
 
-        public double Val
+        public string Str
         {
-            get { return val; }
-            set { val = value; }
+            get { return str; }
+            set { str = value; }
         }
         public MyNode Next
         {
             get { return next; }
             set { next = value; }
         }
-        public MyNode(double val, MyNode next)
+        public MyNode(string str, MyNode next)
         {
-            this.Val = val;
+            this.Str = str;
             this.Next = next;
         }
     }
